@@ -1,0 +1,36 @@
+header {
+  background-color: $header-bg;
+  @include  box-shadow;
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .logo-img {
+      width: 90px;
+    }
+    .welcome{
+        color:#49406b;
+        font-weight: 600;
+        font-size: 1.4rem;
+        letter-spacing:2px;
+
+
+        p{
+            position: relative;
+        font-family: "Madimi One", sans-serif;
+color: white;
+background-color: rgba(0,0,0,.1);
+border-radius: 20px;
+padding: 1rem 2rem;
+
+            span{
+                content:"|";
+                position: absolute;
+                right: -6px;
+                font-size: 2rem;
+
+            }
+        }
+    }
+  }
+}
