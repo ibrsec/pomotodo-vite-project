@@ -15,7 +15,7 @@ section#tasks {
         width: 400px;
         padding: 1rem;
         display: flex;
-        align-content: center;
+        align-items: center;
         justify-content: center;
         gap: 15px;
 
@@ -197,8 +197,18 @@ background-color: #8faeb5;
     section#tasks {
         .container {
          
+
+        .task-add-container{
+            width: 99%;
+            flex-direction: column;
+            align-items: stretch;
+            
+        }
+
+
+
           ul#task-container {
-              width: 350px;
+              width: 98%;
               li {
                
                 p{

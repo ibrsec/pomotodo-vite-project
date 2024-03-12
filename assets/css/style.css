@@ -154,6 +154,9 @@ section#count-time .container .time-buttons button:active {
   section#count-time .container .active-task p {
     white-space: wrap;
   }
+  section#count-time .time-buttons {
+    flex-wrap: wrap;
+  }
 }
 section#tasks .container {
   padding: 1rem;
@@ -168,7 +171,7 @@ section#tasks .container .task-add-container {
   width: 400px;
   padding: 1rem;
   display: flex;
-  align-content: center;
+  align-items: center;
   justify-content: center;
   gap: 15px;
 }
@@ -333,8 +336,13 @@ section#tasks .container ul#task-container li.over {
 }
 
 @media screen and (max-width: 500px) {
+  section#tasks .container .task-add-container {
+    width: 99%;
+    flex-direction: column;
+    align-items: stretch;
+  }
   section#tasks .container ul#task-container {
-    width: 350px;
+    width: 98%;
   }
   section#tasks .container ul#task-container li p {
     width: 65%;
