@@ -1,6 +1,7 @@
 
 import {setColorTheme} from './setgetColors.js';
 import {saveData} from './localStorage.js';
+import clickSound from '../../assets/sound/click.mp3'
 
 
 export const startBtn = document.getElementById("start-btn");
@@ -106,7 +107,10 @@ export const startBtnFunction = () => {
 
   //show off the task when open the time
   document.querySelector("section#tasks").style.display = "none";
-  document.getElementById("click-sound").play()
+
+  document.getElementById("click-sound").src = clickSound;
+  document.getElementById("click-sound").play();
+  // clickSound.play()
 
 }
 
@@ -147,7 +151,11 @@ export const stopBtnFunction = () => {
       item.querySelector(".task-time").textContent = countedTime;
     }
   });
+
+  document.getElementById("click-sound").src = clickSound;
   document.getElementById("click-sound").play()
+  // clickSound.play();
+
 
   saveData();
 }
