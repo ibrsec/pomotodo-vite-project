@@ -11,11 +11,9 @@ const activeTaskBelowTimer = document.querySelector(".active-task p");
 import './public/src/time.js';
 import './public/src/addeditTasks.js';
 
-
 getData();
  
 dragdropFunc();
-  
 const AllLiTasks = document.querySelectorAll("#task-container li");
 
 //at refresh screen the active task
