@@ -5,7 +5,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/ibrsec/pomotodo-vite-project/">
-    <img src="./img/logo.png" alt="Logo" width="200" >
+    <img src="./assets/img/logo.png" alt="Logo" width="200" >
   </a>
 
   <h3 align="center">Pomotodo Vite Project</h3>
@@ -85,13 +85,13 @@
 
 ## 👀 Overview
 
-📦 POMOTODO App for tracking time and the tasks.
-🎯 Adjustable Theme 
-🌱 Add, Edit, Delete Tasks
-💪 Track time and pomodoros for selected Task 
-🔩 Get a random joke when you are tired  
-🐞 Check the finished tasks  
-<!-- 🖥 Easy to implement multiple windows   -->
+📦 POMOTODO App for tracking time and the taskss </br>
+🎯 Adjustable Theme </br>
+🌱 Add, Edit, Delete Tasks </br>
+💪 Track time and pomodoros for selected Task </br>
+🔩 Get a random joke when you are tired  </br>
+🐞 Check the finished tasks  </br>
+<!-- 🖥 Easy to implement multiple windows </br>  -->
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
